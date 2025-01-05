@@ -1,0 +1,14 @@
+app:
+  name: gin_jiaoshoujia
+  port: 8080
+
+database:
+  type: sqlite # 可选 sqlite 或 mysql
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: root
+    dbname: gin_db
+  sqlite:
+    path: gin_jiaoshoujia.db

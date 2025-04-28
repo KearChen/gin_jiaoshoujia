@@ -1,7 +1,7 @@
 app:
   name: gin_jiaoshoujia
   port: 8080
-
+  SetMode: debug # 可选 debug、release、test
 database:
   type: sqlite # 可选 sqlite 或 mysql
   mysql:
